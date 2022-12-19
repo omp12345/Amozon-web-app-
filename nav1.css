@@ -1,0 +1,238 @@
+h5{
+    font-size: 40px;
+}
+#main{
+    background-color:#212121;
+    color:white;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    
+}
+
+#cont{
+    display: flex;
+    width: 100%;
+   
+    
+   
+    z-index: 5;
+    position:sticky;
+    top:0;
+    
+}.om{
+    display: flex;
+   width: 30%;
+  
+   justify-content: space-between;
+   height: 80px;
+}#cont+div>img{
+   display: inline;
+   width:30%
+}#cont1>div:hover{
+    background-color: #37474F;
+}
+#join>div:hover{
+    background-color: #37474F;
+}#family>div:hover{
+    background-color: black;
+}#end>div:hover{
+   color:gray
+}#final>div:hover{
+    background-color: blanchedalmond;
+}
+
+#next>div:hover{
+background-color: bisque;
+}
+#cont1{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+  
+ 
+}#cont1>div{
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}#fit{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+  
+   
+    width:90%;
+   gap:20px;
+    margin:auto
+
+   
+   
+   
+}#img:hover{
+    background-color: #2980B9;
+}
+#get:hover{
+    background-color: whitesmoke;
+}
+#image:hover{
+    background-color: pink;
+}
+#fit>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#fit img{
+    width:100%;
+   
+}#pass{
+    width:90%;
+    margin:auto;
+    margin:50px;
+   
+    
+}h3{
+    font-size: 150px;
+}#bestpass>div:nth-child(3){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}#bestpass h4{
+   color: blue;
+
+}#process{
+    display: grid;
+    width: 80%;
+
+    grid-template-columns: repeat(3,1fr);
+    margin:auto
+}#process button{
+    font-size: 30px;
+}#process>div>button:nth-child(2){
+    color: red;
+}#next{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:90%;
+    
+    margin:auto;
+    gap:30px;
+    
+}#next img{
+    width:100%
+}#next>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:2px solid light gray;
+    margin-top: 100px;
+}#wellness{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:auto;
+    width:90%;
+    margin-top:50px;
+    background-color: #95A5A6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}#fit>div:hover{
+  background-color:#615D5D
+
+}
+#wellness>div:nth-child(2){
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:40px
+  
+}#wellness>div:hover{
+    background-color: black;
+}
+#wellness>div{
+
+}#wellness img{
+    width:100%
+
+}#join{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:60px;
+    margin:auto;
+    width:90%;
+    background-color: #292524;
+    
+
+
+}#join>div:nth-child(1) img{
+    width: 30%;
+    
+
+}#join>div:nth-child(2){
+    width:100%
+}#family{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap:60px;margin:auto
+}#family img{
+    width:90%
+}#family>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:#615D5D
+}#family>div:nth-child(1) h1{
+
+    font-size: 50px;
+}h1{
+    font-size: 60px;
+}#final{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:90%;
+    gap:60px;
+    margin:auto;
+    margin-top: 60px;
+}#final img{
+    width:100%
+}#final>div:nth-child(1){
+    background-color:#2980B9
+}#end{
+  display: flex;
+  width:100%;
+  margin:auto;
+  justify-content: space-evenly;
+  background-color:black ;
+  
+
+}#end>divdiv:hover{
+    color: aliceblue;
+}
+#end img{
+    width:50%
+}#end div>div:hover{
+    background-color: black
+}
+#end>div:nth-child(n){
+   margin: 20px 30px;
+
+  
+   width:23%
+}#end>div:nth-child(2){
+    font-size: 30px;
+}#end>div:nth-child(3){
+    font-size: 30px;
+}#end>div:nth-child(4){
+    font-size: 30px;
+}#end>div:nth-child(6)>div{
+    display: flex;
+}#End{
+    display: flex;
+    width:100%;
+}#End>div{
+    width:23%;
+
+}#End>div>div:hover{
+    background-color: blanchedalmond;
+}
+@media screen and (min-width:350px) {
+  #cont>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  }
+
