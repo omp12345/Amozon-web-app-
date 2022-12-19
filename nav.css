@@ -14,8 +14,12 @@ h5{
     display: flex;
     width: 100%;
    
-    justify-content: space-between;
-    background-color: light gray;
+    
+   
+    z-index: 5;
+    position:sticky;
+    top:0;
+    
 }.om{
     display: flex;
    width: 30%;
@@ -25,7 +29,23 @@ h5{
 }#cont+div>img{
    display: inline;
    width:30%
-}#cont1{
+}#cont1>div:hover{
+    background-color: #37474F;
+}
+#join>div:hover{
+    background-color: #37474F;
+}#family>div:hover{
+    background-color: black;
+}#end>div:hover{
+   color:gray
+}#final>div:hover{
+    background-color: blanchedalmond;
+}
+
+#next>div:hover{
+background-color: bisque;
+}
+#cont1{
     width:80%;
     margin:auto;
     display: flex;
@@ -49,7 +69,16 @@ h5{
    
    
    
-}#fit>div{
+}#img:hover{
+    background-color: #2980B9;
+}
+#get:hover{
+    background-color: whitesmoke;
+}
+#image:hover{
+    background-color: pink;
+}
+#fit>div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #fit img{
@@ -103,12 +132,19 @@ h5{
     background-color: #95A5A6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
-}#wellness>div:nth-child(2){
+}#fit>div:hover{
+  background-color:#615D5D
+
+}
+#wellness>div:nth-child(2){
     display: grid;
   grid-template-columns: repeat(2,1fr);
   gap:40px
   
-}#wellness>div{
+}#wellness>div:hover{
+    background-color: black;
+}
+#wellness>div{
 
 }#wellness img{
     width:100%
@@ -160,13 +196,20 @@ h5{
   width:100%;
   margin:auto;
   justify-content: space-evenly;
-  background-color:#37474F ;
+  background-color:black ;
   
 
-}#end img{
+}#end>divdiv:hover{
+    color: aliceblue;
+}
+#end img{
     width:50%
-}#end>div:nth-child(n){
+}#end div>div:hover{
+    background-color: black
+}
+#end>div:nth-child(n){
    margin: 20px 30px;
+
   
    width:23%
 }#end>div:nth-child(2){
@@ -181,6 +224,15 @@ h5{
     display: flex;
     width:100%;
 }#End>div{
-    width:23%
+    width:23%;
+
+}#End>div>div:hover{
+    background-color: blanchedalmond;
 }
+@media screen and (min-width:350px) {
+  #cont>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  }
 
