@@ -7,7 +7,7 @@ submit.addEventListener("click",()=>{
     data.forEach((el)=>{
         if(name.value===el.Name&&email.value===el.Email){
             alert("Welcome User")
-            window.location.assign("./nav.html")
+            window.location.assign("./index.html")
         }
         else{
             alert("Wrong name or email Id")

@@ -17,6 +17,6 @@ button.addEventListener("click",()=>{
    localStorage.setItem("data",JSON.stringify(userdata))
    alert("data has been stored")
    
-   window.location.assign("./signin.html")
+   window.location.assign("./login.html")
 
 })
