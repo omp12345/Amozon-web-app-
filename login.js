@@ -14,4 +14,3 @@ submit.addEventListener("click",()=>{
         }
     })
 })
-let data1=document.createElement("h1")
